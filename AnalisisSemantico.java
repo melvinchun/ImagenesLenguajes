@@ -11,12 +11,14 @@ package lenguajes;
  */
 public class AnalisisSemantico {
     public static void main(String[] args) {
-        int[] numeros = new int[4];
-        //Aqui podemos observar dos errores semanticos uno es la x no declarada y el otro el 4 ya que excede el tamaño de array
-        x=numeros[4];
-        //Un entero no puede ser de tipo string
-        int a="Chun";
-        int b=a*b;
+        //Variable no inicializada
+        int i;
+        i++;
+        //Diferentes tipos de variables
+        int a="CHUN";
+        //El operador - no esta sobre cargado para strings
+        String s = "...";
+        int a = 5 - s;
     }
 
     
