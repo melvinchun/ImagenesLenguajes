@@ -12,13 +12,13 @@ package lenguajes;
 public class AnalisisSemantico {
     public static void main(String[] args) {
         //Variable no inicializada
-        int i;
-        i++;
+        int x;
+        x++;
         //Diferentes tipos de variables
-        int a="CHUN";
+        int b="CHUN";
         //El operador - no esta sobre cargado para strings
-        String s = "...";
-        int a = 5 - s;
+        String t = "...";
+        int r = 5 - t;
     }
 
     
