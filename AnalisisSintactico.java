@@ -11,7 +11,7 @@ package lenguajes;
  */
 public class AnalisisSintactico {
     public static void main(String[] args) {
-        //No se puede poner un numero para declarar una variable
+        //No se puede poner un numero al principio para declarar una variable
         int[] 5numeros = new int[4];
         //Aqui podemos observar dos errores uno es la x no declarada
         x=numeros[3];
